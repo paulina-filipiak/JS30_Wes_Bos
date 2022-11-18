@@ -82,7 +82,9 @@
       // }
       for (let i = 0; i < inventors.length; i++) {
         let YearOfBirth = inventors[i].year
-        console.log(YearOfBirth)
+        if (YearOfBirth - 1500 < 100 && YearOfBirth - 1500 >= 0) {
+          console.log(YearOfBirth)
+        }
       }
 
       // Array.prototype.map()
